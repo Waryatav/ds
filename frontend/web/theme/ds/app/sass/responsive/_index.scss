@@ -1,0 +1,121 @@
+@media only screen and (max-width: 1024px) {
+  .content{
+    background-size: contain;
+  }
+  .about .content {
+    background-size: contain;
+    padding: 0 150px;
+  }
+  .about .content p {
+    line-height: 19px;
+  }
+}
+@media only screen and (max-width: 980px) {
+  .about .content {
+    background-size: contain;
+    padding: 100px;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .videos{
+    margin:30px 0;
+  }
+  .videos iframe{
+    width: 100%;
+    height:315px;
+  }
+  .about .content {
+    padding: 0 120px;
+    padding-bottom: 0;
+    background-size: contain;
+    background-position: 50% 0;
+  }
+  .about .content p {
+    font-size: 15px;
+    line-height: 1.2;
+    text-align: left;
+  }
+  .footer{
+    margin-top: 30px;
+  }
+  .title{
+    padding-bottom: 40px;
+    padding-top: 51px;
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 736px) {
+  .videos iframe{
+    width: 100%;
+    height:215px;
+  }
+}
+@media only screen and (max-width: 568px) {
+  .footer-bg {
+    height: 280px;
+  }
+  .header-menu .logo {
+    margin-top: 30px;
+    width: 53%;
+    font-size: 23px;
+  }
+  .about .content {
+    padding: 25px 55px;
+    padding-bottom: 0;
+  }
+  .footer{
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  .about .content .title {
+    padding-bottom: 0;
+    font-size:30px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .head-bg{
+    padding:0;
+    width: 99%;
+    background-position: 1px 0;
+    background-size: contain;
+    background-image: url("../img/02.png");
+  }
+  .footer-bg{
+    padding:0;
+    background-image: url("../img/01.png");
+    height: 38px !important;
+    background-position: -1px 0;
+    background-size: contain;
+    margin-top:0;
+  }
+  .about .content, .about .content-main {
+    padding: 15px 50px 20px !important;
+    height: 100%;
+    background-size: contain;
+    background-position: -1px 0;
+  }
+  .about .content p {
+    font-size: 16px !important;
+    line-height: 1.2;
+    margin-bottom: 5px;
+  }
+  .footer{
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  .about .content .title {
+    padding-bottom: 7px;
+    font-size: 15px;
+    padding-top: 15px;
+  }
+  .about .content .shft-text {
+    padding-left: 0;
+  }
+  .about .content-main .shft-text h3, .about .content .shft-text h3,.about .content h2 {
+    font-size: 16px;
+    margin: 20px auto;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 320px) {
+}

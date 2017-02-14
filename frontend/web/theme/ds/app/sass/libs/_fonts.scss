@@ -1,0 +1,31 @@
+$sbi: 'PTSerifBoldItalic';
+$sb: 'PTSerifBold';
+$sr: 'PTSerifRegular';
+
+
+@font-face {
+font-family: 'PTSerifBoldItalic';
+src: url('../fonts/PTSerifBoldItalic/PTSerifBoldItalic.eot') format('embedded-opentype'),
+url('../fonts/PTSerifBoldItalic/PTSerifBoldItalic.woff2') format('woff2'),
+url('../fonts/PTSerifBoldItalic/PTSerifBoldItalic.woff') format('woff'),
+url('../fonts/PTSerifBoldItalic/PTSerifBoldItalic.ttf') format('truetype'),
+url('../fonts/PTSerifBoldItalic/PTSerifBoldItalic.svg') format('svg');
+}
+@font-face {
+font-family: 'PTSerifBold';
+src: url('../fonts/PTSerifBold/PTSerifBold.eot') format('embedded-opentype'),
+// url('../fonts/PTSerifBold/PTSerifBold.woff2') format('woff2'),
+url('../fonts/PTSerifBold/PTSerifBold.woff') format('woff'),
+url('../fonts/PTSerifBold/PTSerifBold.ttf') format('truetype');
+// url('../fonts/PTSerifBold/PTSerifBold.svg') format('svg');
+font-weight: normal;
+}
+@font-face {
+font-family: 'PTSerifRegular';
+src: url('../fonts/PTSerifRegular/PTSerifRegular.eot') format('embedded-opentype'),
+// url('../fonts/PTSerifBold/PTSerifBold.woff2') format('woff2'),
+url('../fonts/PTSerifRegular/PTSerifRegular.woff') format('woff'),
+url('../fonts/PTSerifRegular/PTSerifRegular.ttf') format('truetype');
+// url('../fonts/PTSerifRegular/PTSerifRegular.svg') format('svg');
+font-weight: normal;
+}
